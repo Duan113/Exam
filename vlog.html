@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/main.css" />
+		<style type="text/css">
+			/* 清除浮动 */
+			.wall {
+				clear: both;
+			}
+
+			#shuaxin {
+				text-align: center;
+				margin-top: 18px;
+			}
+			#header{
+				background: url(img/head_left.jpeg);
+				opacity: 0.8;
+			}
+			.logo{
+				background-size:cover;
+				background: url(../img/头像.jpg) no-repeat;
+				width: 100px;
+				height: 100px;
+				border-radius: 50%;
+			}
+			/* 中间右部 */
+			.among_right_ul{
+				padding-top: 20px;
+				width: 550px;
+				height: 400px;
+				margin: 0 auto;
+				list-style: none;
+				overflow: hidden;
+			}
+			.among_right_ul .among_right_li{
+				width: 275px;
+				height: 400px;
+				float: left;
+				transition: width 1s;
+			}
+			.among_right_ul .among_right_li img{
+				height: 400px;
+			}
+			.among_right_ul:hover .among_right_li{
+				width: 175px;
+			}
+			.among_right_ul .among_right_li:hover{
+				width: 375px;
+			}
+			
+			.among_right_img1{
+				margin-top: 20px;
+				margin-left: 520px;
+			}
+			.among_right_ul1{
+				margin: 10px 520px;
+			}
+			.among_right_ul1 li{
+				padding: 5px;
+			}
+			.among_right_ul1 a{
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<!--1.头部-->
+		<div id="header">
+			<a href="login.html">
+				<div href class="logo" style="background-size:cover;">
+				</div>
+			</a>
+			<div style="float: left; margin: 100px 0 0 0;color: #FEFEFE;">
+				<a>点击头像登录你的账号</a>
+			</div>
+			<div class="search">
+				<form>
+					<div>
+						<input type="text" value="SEARCH..." class="text" />
+						<a href="#"> <img class="pic" src="img/search.png"></a>
+					</div>
+				</form>
+			</div>
+		</div>
+		<!-- 导航条 -->
+		<div id="nav">
+			<ul class="nav_ul">
+				<li class="nav_li"><a class="nav_a" href="index.html">推荐</li>
+				<li class="nav_li"><a class="nav_a" href="fj.html">番剧</li>
+				<li class="nav_li"><a class="nav_a" href="ys.html">影视</li>
+				<li class="nav_li"><a class="nav_a" href="xx.html">学习</li>
+				<li class="nav_li"><a class="nav_a" href="gc.html">鬼畜</li>
+				<li class="nav_li"><a class="nav_a" href="yy.html">音乐</li>
+				<li class="nav_li"><a class="nav_a" >VLOG</li>
+				<li class="nav_li"><a class="nav_a" href="more.html">更多</li>
+			</ul>
+		</div>
+		<div id="among">
+			<!-- 中间左部 -->
+			<div id="among_left">
+				<ul class="among_left_ul">
+							<li class="among_left_li"><a class="among_left_a"><img class="among_left_img" src="img/消息.png"><a href="news.html"style="text-decoration: none;">消息</a></li>
+		<li class="among_left_li"><a class="among_left_a"><img class="among_left_img" src="img/动态.png"><a href="trends.html"style="text-decoration: none;">动态</a></li>
+		<li class="among_left_li"><a class="among_left_a"><img class="among_left_img" src="img/收藏.png"><a href="collect.html"style="text-decoration: none;">我的收藏</a></li>
+					<li class="among_left_li"><a class="among_left_a"><img class="among_left_img" src="img/浏览记录.png"><a href="record.html"style="text-decoration: none;">浏览记录</li>
+					<li class="among_left_li"><a class="among_left_a"><img class="among_left_img" src="img/活动.png">热门活动</li>
+					<li class="among_left_li"><a class="among_left_a"><img class="among_left_img" src="img/投稿.png">创意投稿</li>
+					<li class="among_left_li"><a class="among_left_a"><img class="among_left_img" src="img/排行榜.png">排行榜</li>
+					<li class="among_left_li"><a class="among_left_a"><img class="among_left_img" src="img/反馈.png">反馈</li>
+				</ul>
+			</div>
+			<!-- 中间右部 -->
+			<div class="among_right">
+				<ul class="among_right_ul">
+					<li class="among_right_li"><img src="img/vlog/东极岛.jpg"></li>
+					<li class="among_right_li"><img src="img/vlog/西藏.jpg"></li>
+				</ul>
+			</div>
+			<img class="among_right_img1" width="20px" height="20px" src="img/热点.png"/>
+			<a>今日热点
+			<ul class="among_right_ul1">
+				<li><a href="https://www.bilibili.com/bangumi/play/ss4452/?from=search&seid=13173213260962809288">东极岛</a></li>
+				<li><a href="https://www.bilibili.com/bangumi/play/ss6360/?from=search&seid=6661961575583260786">西藏</a></li>
+			</ul>
+			</a>
+		</div>
+		
+		<!-- 版权 -->
+		<div id="end">
+			<a href="#">关于我们 </a>
+			<a href="#">联系我们 </a>
+			<a href="#">加入我们 </a>
+			<a href="#">认证 </a>
+			<b>版权归<span >@段东坡</span>所有</b>
+		</div>
+	</body>
+</html>

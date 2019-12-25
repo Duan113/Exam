@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		#main {
+			margin: 0 auto;
+			width: 1200px;
+			height: 1200px;
+		}
+
+		#head {
+			margin: 0 auto;
+			width: 1200px;
+			height: 200px;
+			background: url(img/bili_winte.jpg);
+			position: relative;
+		}
+
+		#head_rank {
+			width: 100px;
+			height: 30px;
+			background: #ffffff;
+			border-radius: 6px;
+			opacity: 0.9;
+			border-top: 150px;
+			position: absolute;
+
+			right: 360px;
+			bottom: 20px;
+		}
+
+		#head_search {
+			width: 250px;
+			height: 30px;
+			background: #ffffff;
+			border-radius: 6px;
+			opacity: 0.9;
+			border-top: 150px;
+			position: absolute;
+			right: 80px;
+			bottom: 20px;
+		}
+		
+		#among {
+			margin: 0 auto;
+			width: 1200px;
+			min-height: 800px;
+			height: auto;
+			position: relative;
+		}
+		#amone_top{
+			margin: 0 auto;
+			width: 1200px;
+			height: 100px;
+			position: absolute;
+		}
+		.amone_history{
+			font-size: 28px;
+			position: absolute;
+			top: 30px;
+			margin-left: 80px;
+		}
+		.amone_right1{
+			font-size: 20px;
+			position: absolute;
+			top: 32px;
+			margin-left: 850px;
+			color: #3366FF;
+			border: 1px solid blue;
+			border-radius: 5px;
+		}
+		.amone_right2{
+			font-size: 20px;
+			position: absolute;
+			top: 32px;
+			margin-left: 1020px;
+			color: #3366FF;
+			border: 1px solid blue;
+			border-radius: 5px;
+		}
+		
+		#amone_bottom{
+			margin: 100px auto;
+			margin-left: 100px;
+			width: 1000px;
+			height: 800px;
+			position: absolute;
+		}
+		.amone_bottom_ul{
+			
+		}
+		.amone_bottom_li{
+			list-style: none;
+		}
+		#amone_bottom2{
+			width: 400px;
+			height: 150px;
+			float: left;
+			border-left: 1px solid #cccccc;
+		}
+		#amone_bottom3{
+			width: 600px;
+			height: 150px;
+			margin-left: 400px;
+			border-bottom: 1px solid #888888;
+		}
+		.amone_bottom_li_date{
+			font-size: 20px;
+			position: absolute;
+			width: 120px;
+			top: 70px;
+			margin-left: 20px;
+			color: #808080;
+			border: none;	
+		}
+		.amone_bottom_li_img{
+			float: left;
+			height: 130px;
+			width: 172px;
+			border-radius: 10px;
+			position: absolute;
+			top: 10px;
+			margin-left: 200px;
+		}
+		#amone_bottom3 h3{
+			position: absolute;
+			top: 10px;
+			margin-left: 20px;
+		}
+		.include_a1{
+			
+		}
+		.include_a1 img{
+			position: absolute;
+			width: 25px;
+			height: 25px;
+			top: 120px;
+			margin-left: 20px;
+		}
+		.include_a1 input{
+			font-size: 20px;
+			position: absolute;
+			width: 100px;
+			top: 120px;
+			margin-left: 50px;
+			border: none;
+			color: #808080;;
+		}
+		
+		.amone_bottom3_trashcan{
+			width: 25px;
+			height: 25px;
+			position: absolute;
+			top: 50px;
+			right: 0px;
+		}
+		.img_logo{
+			width: 35px;
+			height: 35px;
+			border-radius: 50%;
+			position: absolute;
+			top: 110px;
+			margin-left: 255px;
+		}
+		.amone_bottom3_text1{
+			font-size: 20px;
+			position: absolute;
+			width: 80px;
+			top: 120px;
+			margin-left: 300px;
+			border: none;
+			color: #606060;;
+		}
+		.amone_bottom3_text2{
+			font-size: 20px;
+			position: absolute;
+			width: 60px;
+			top: 120px;
+			margin-left: 380px;
+			padding-left: 30px;
+			border: none;
+			color: #808080;
+			border-left: 2px solid #606060;
+		}
+	</style>
+	<body>
+		<div id="main">
+			<div id="head">
+				<div id="head_rank">
+					<input type="image" src="img/record.png" style="width: 30px;height: 30px;float: left;" />&nbsp;
+					<span style="position:absolute;border:none;width: 60px;height: 30px;color: #ffccff;font-size: 18px;top: 6px;" >排行榜</span>
+				</div>
+
+				<div id="head_search">
+					<span style="position:absolute;border:none;width: 150px;height: 30px;font-size: 18px;top: 6px;float: left;">全面jojo模拟器</span>
+					<input type="image" src="img/search1.png" style="position: absolute; width: 30px;height: 30px;right: 10px;" />
+				</div>
+			</div>
+
+			<div id="#among">
+				<div id="amone_top">
+					<span class="amone_history">播放历史</span>
+					<span class="amone_right1">暂停记录历史</span>
+					<span class="amone_right2">清空历史</span>
+				</div>
+				<div id="amone_bottom">
+					<ul class="amone_bottom_ul">
+						<li class="amone_bottom_li">
+							<div id="amone_bottom2">
+								<input class="amone_bottom_li_date" type="text" value="2019-12-02"/>
+								<img class="amone_bottom_li_img" src="img/vlog/西藏.jpg"/>
+							</div>
+							<div id="amone_bottom3">
+								<h3>vlog 西藏之行</h3>
+								<a class="include_a1"><img src="img/computer.png" /><input type="text" value="已看完"/></a>
+								<img class="img_logo" src="img/头像.jpg" />
+								<input class="amone_bottom3_text1" type="text" value="段东坡"/>
+								<input class="amone_bottom3_text2" type="text" value="vlog"/>
+								<img class="amone_bottom3_trashcan" src="img/trashcan.png" />
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+	</body>
+</html>

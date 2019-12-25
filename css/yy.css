@@ -1,0 +1,145 @@
+*重置样式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*1.头部*/
+#header {
+    width:1200px;
+    height: 200px;
+    margin: 0 auto;
+}
+#header .logo {
+    float: left;
+    margin: 50px 50px 50px 50px;
+	background: url(../img/头像.jpg) no-repeat;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+#header .search {
+    width: 230px;
+    height: 30px;
+    float: right;
+    margin: 50px 50px 50px 50px;
+    background: #f1f1f1;
+    border: 1px solid #fefefe;
+}
+#header .search .text {
+    height: 29px;
+    width: 186px;
+    float: left;
+    padding-left: 16px;
+    font-size: 10px;
+    border: none;
+    background: #f1f1f1;
+}
+ #header .search .bt {
+    height: 29px;
+    width: 29px;
+    float: left;
+    border: none;
+} 
+#header .search input[type=submit]{
+	 height: 32px;
+	width: 28px;
+	float: right;
+	border: none;
+background: #f1f1f1;
+}
+.pic{
+	margin-top: 10px;
+	float: right;
+}
+/* 导航 */
+#nav{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	background: #808080;
+}
+#nav .nav_ul{
+	padding-left: 0px;
+}
+#nav .nav_li{
+	list-style: none;
+	float: left;
+	width: 150px;
+	height: 50px;
+	font-size: 20px;
+	color: #fff;
+	border-right: 1px solid #000;
+	text-align: center;
+	line-height: 50px;
+	box-sizing: border-box;
+}
+#nav .nav_li:hover{
+	background: yellow;
+}
+#nav .nav_a{
+	font-size: 25px;
+	font-weight: 700;
+	color: purple;
+	text-decoration: none;
+}
+/* 中间 */
+#among{
+	width:1200px;
+	height: 550px;
+	margin: 0 auto;
+	background:#EEE5DE;;
+}
+/* 中间左部 */
+#among_left{
+	width: 400px;
+	height: 31px;
+	float: left;
+	margin: 25px 0 30px 5px;
+    
+}
+.among_left_ul{
+	
+}
+.among_left_li{
+	font: 20px "微软雅黑";
+	list-style: none;
+	height: 60px;
+}
+.among_left_img{
+	height: 20px;
+	width: 20px;
+	padding-right: 10px;
+	padding-top: 16px;
+}
+
+/* 中间右部 */
+
+/* 中间底部 */
+
+#end{
+	width:1200px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+#end a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #330033;
+	padding-left: 15px;
+}
+#end a:hover{
+	color: #3366ff;
+}
+#end b{
+	font-size: 20px;
+	text-decoration: none;
+	color: #330033;
+	padding-left: 600px;
+}
+#end b span{
+	font-size: 22px;
+	text-decoration: none;
+	color: #003399;
+}
+
